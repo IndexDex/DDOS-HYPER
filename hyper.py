@@ -95,7 +95,7 @@ class MyThread(threading.Thread):
 
                     sock.sendto(Pacotes[5], (ip, int(port)))
 
-                elif(int(port) == 7796):
+                elif(int(port) == 7778):
 
                     sock.sendto(Pacotes[4], (ip, int(port)))
 
